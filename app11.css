@@ -1,0 +1,140 @@
+body {
+    background: #faf9f5;
+    font-family: 'Yeon Sung', cursive;
+
+    /* overflow: overlay; */
+}
+
+/* ::-webkit-scrollbar
+{
+    width: 6px;
+}
+
+::-webkit-scrollbar-thumb
+{
+    background-color: #a1795a;
+    border-radius: 6px;
+} */
+.allButFooter {
+    min-height: calc(100vh - 40px);
+}
+
+h3 {
+    color: #a1795a;
+}
+
+.blurb h2 {
+    color:  #201710;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+.blurb p {
+    color: #201710;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+
+}
+
+.content {
+    margin-top: 100px;
+    /* margin-bottom: 100px; */
+}
+
+.btn {
+    background: #201710;
+    color: white;
+}
+
+body { 
+   overflow-x: hidden;
+}
+footer {
+    background-color: #201710;
+    color: #ffffff;
+
+}
+#mainNavbar .nav-link.color {
+    color:  #a1795a;
+}
+#mainNavbar .navbar-brand.colorb {
+    color:  #a1795a;
+}
+
+
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#mainNavbar .nav-link {
+    color: #201710;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #a1795a;
+}
+
+#mainNavbar .navbar-brand:hover {
+    color: #a1795a;
+}
+
+#mainNavbar .navbar-brand {
+    color: #201710;
+}
+
+
+
+ span {
+    color:  #a1795a;
+}
+#headingGroup h1 {
+    color: #201710;
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+.navbar.scrolled {
+    background: #faf9f5;
+    transition: background 1000ms;
+}
+
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+}
+/* quiz */
+.container.quiz {
+    background: #faf9f5;
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* NOS CAFES */
+#header {
+    background: url("imgs/beans.jpg") center center /cover no-repeat;
+    color:  white;
+}
+
+.card {
+    background: #faf9f5;
+    color:#201710;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+/* .img-fluid {
+    width: 100%;
+    height: 50vw;
+    object-fit: cover;
+} */
+
+/* EMPLACEMENT */
